@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+* {
+    margin: 0;   
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-image: url(img/background.png);
+    background-repeat: repeat;
+    padding-bottom: 50px;
+
+    #container {
+        width: 1200px;
+        min-height: 600px;
+        margin: 5px auto 0 auto;
+        padding: 0;
+        position: relative;
+
+        #navbar {
+            margin-bottom: 40px;
+            position: relative;
+            
+            div {
+                display: inline-block;
+                margin: 0;
+
+                a  {
+                    padding: 16px 24px;
+                    background-color: #49453c;
+                    color: #fff;
+                }
+            }
+            #nav-2 {
+                position: relative;
+                left: 731px;
+            }
+        }
+
+        form {
+            background-color: #c84f00;    
+            color: #fff;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 24px;
+            input {
+                color: #fff;
+                font-size: 42px;
+                width: 400px;
+                text-align: center;
+                border: none;
+                border-bottom: 2px solid #fff;
+                background: none;
+                margin: 16px 0;
+            }
+        }
+
+        a#stubborn-hashtag {
+            font-weight: 700;
+            font-size: 32px;
+            text-align: center;
+            background-color: #c84f00;
+            color: #fff;
+            position: absolute;
+            left: -37px;
+            top: 200px;
+            padding: 0 8px;
+        }
+
+        #main {
+            width: 1150px;
+            background-color: #f2e9d6;
+            padding: 30px 25px 50px 25px;
+
+            h1 {
+                margin: 10px;
+            }
+            
+            p {
+                width: 550px;
+                margin-bottom: 24px;
+            }
+
+            #main-table {
+                width: 1100px;
+                text-align: center;
+                margin: 0 auto;
+                
+                div {
+                    display: inline-block;
+                    vertical-align: bottom;
+                    background-color: #ebe2cf;
+
+                    p{
+                        width: 95px;
+                        display: block;
+                        font-weight: bold;
+                        background-color: #f2e9d6;
+                        padding: 8px 0 14px 0;
+                        margin-bottom: 4px;
+                        border-bottom: 4px solid #111;
+                    }
+
+                    a{
+                        color: #fff;
+                        font-weight: 400;
+                        width: 95px;
+                        height: 30px;
+                        display: block;
+                        margin-bottom: 4px;
+                        padding-top: 10px;
+                        position: relative;
+
+                        span.tag{
+                            font-weight: 400;
+                            border: 1px solid #5f6368;
+                            color: #111;
+                            font-size: 10px;
+                            position: absolute;
+                            background-color: #fff;
+                            padding: 1px 3px;
+                            top: 1.5px;
+                            left: 1.5px;
+                        }
+                    }
+                    a.none {
+                        background-color: none;
+                    }
+                    a.danger {
+                        background-color: #810000;
+                    }
+                    a.warning {
+                        background-color: #94700c;
+                    }
+                    a.success {
+                        background-color: #258533;
+                    }
+                }
+            }
+        }
+    }    
+}
